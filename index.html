@@ -286,10 +286,27 @@ left:10px;
 }
 
 .p4{
-bottom:15px;
-right:10px;
+bottom:120px;
+right:12px;
+}
+.button-group{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:40px;
 }
 
+.button-group button{
+    width:100%;
+}
+
+#noBtn{
+    margin-left:0;
+}
+#noBtn{
+    margin-left:0;
+    margin-top:0;
+}
 }
 #questions{
 
@@ -489,7 +506,7 @@ Question 1 of 3
 Ready for your birthday surprise?
 </h1>
 
-<div style="margin-top:40px;">
+<div class="button-group">
 
 <button onclick="yesAnswer()">
 YES 💙
